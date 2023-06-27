@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+
+}
+
+.homebar {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+.headerlogo {
+    width: auto;
+    height: 50px;
+    margin-right: auto;
+}
+
+.homebar p {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.headerlinks {
+    list-style: none;
+    display: flex;
+    flex: auto;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
