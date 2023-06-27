@@ -15,11 +15,6 @@
     padding: 15px;
     align-items: center;
 }
-.headerlogo {
-    width: auto;
-    height: 50px;
-    margin-right: auto;
-}
 
 .homebar p {
     font-size: 24px;
@@ -35,4 +30,49 @@
     gap: 10px;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.headercontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: auto;
+}
+
+.headertext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+
+.headertext h1 {
+    font-size: 48px;
+    font-weight: 800px;
+    color: #f9faf8;
+    
+}
+
+.headertext p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.headertext button {
+    background-color: #3882f6;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.headerlogocontainer {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+}
+.headerlogo {
+    width: 300px;
+    height: auto;
 }
