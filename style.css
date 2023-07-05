@@ -172,3 +172,11 @@
     border: solid;
     border-color: #ffffff;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    height: 50px;
+}
